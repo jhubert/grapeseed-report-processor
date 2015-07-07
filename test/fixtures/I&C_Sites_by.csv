@@ -1,0 +1,14 @@
+Insertion Order,Insertion Order ID,Insertion Order Status,Insertion Order Integration Code,Site,Site ID,Impressions,Clicks
+Atlantic_School_Feb2015,1567563,Active,,blackplanet.com,10012,1,6
+Atlantic_School_Feb2015,1567563,Active,,bossip.com,10013,2,5
+Atlantic_School_Feb2015,1567563,Active,,ebay.com,10017,3,4
+Atlantic_School_Feb2015,1567563,Active,,uproxx.com,10180,4,3
+Atlantic_School_Feb2015,1567563,Active,,comicbookresources.com,10181,5,2
+Atlantic_School_Feb2015,1567563,Active,,blogtalkradio.com,10185,6,1
+
+Report Time:,2015/07/07 04:31 GMT
+Date Range:,2015/06/06 to 2015/07/05
+Group By:,Insertion Order
+Group By:,Site
+Filter by Advertiser:
+Filter by Partner:

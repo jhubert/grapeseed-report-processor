@@ -1,0 +1,13 @@
+Insertion Order,Insertion Order ID,Insertion Order Status,Insertion Order Integration Code,Time of Day,Impressions,Clicks
+Atlantic_School_Feb2015,1567563,Active,,0,1,0
+Atlantic_School_Feb2015,1567563,Active,,1,2,1
+Atlantic_School_Feb2015,1567563,Active,,2,0,2
+Atlantic_School_Feb2015,1567564,Active,,22,1,1
+Atlantic_School_Feb2015,1567564,Active,,23,1,1
+
+Report Time:,2015/07/07 05:26 GMT
+Date Range:,2015/06/06 to 2015/07/05
+Group By:,Insertion Order
+Group By:,Time of Day
+Filter by Advertiser:
+Filter by Partner:

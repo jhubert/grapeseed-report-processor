@@ -5,7 +5,15 @@ class TestGrapeseedReportProcessor < Minitest::Test
     refute_nil ::GrapeseedReportProcessor::VERSION
   end
 
-  def test_it_does_something_useful
-    assert false
+  def test_processes_a_valid_file_and_returns_a_hash
+    filename = fixture('I&C_Creative_Type_by.csv')
+    result = GrapeseedReportProcessor.process(filename)
+    assert result.is_a? Hash
+  end
+
+  def test_raises_an_error_if_the_file_is_invalid
+    assert_raises StandardError do
+      GrapeseedReportProcessor.process('filename')
+    end
   end
 end

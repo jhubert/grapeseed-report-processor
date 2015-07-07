@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'grapeseed_report_processor'
+
+unless ARGV[0]
+  puts "Usage: grapeseed_report_processor filename"
+  exit 1
+end
+
+result = GrapeseedReportProcessor.process ARGV[0]
+p result
