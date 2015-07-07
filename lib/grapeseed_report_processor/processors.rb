@@ -1,17 +1,5 @@
 require 'csv'
-
-module GrapeseedReportProcessor::Processors
-  class Base
-    def initialize(filename)
-      @filename = filename
-    end
-
-    def result
-      @result ||= process
-    end
-  end
-end
-
+require 'grapeseed_report_processor/processors/base'
 require 'grapeseed_report_processor/processors/creative_type'
 require 'grapeseed_report_processor/processors/browser'
 require 'grapeseed_report_processor/processors/device'
